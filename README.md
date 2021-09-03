@@ -1,5 +1,5 @@
 # progealused
-Progre aluste kompekt ja tunnitööd
+--- Progre aluste kompekt ja tunnitööd ---
 tootehind = 20
 20
 rahakott = 11
