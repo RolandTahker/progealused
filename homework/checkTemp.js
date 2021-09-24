@@ -1,15 +1,16 @@
-function checkTemp() {
-    let temp = Math.floor(Math.random() *60);
+// checkTemp
 
-    if (temp < 21) {
-        console.log ("liiga külm")
-    }
 
-    else if (temp < 20 && temp > 41) {
-        console.log ("temperatuur on paras")
-    }
+function checkTemp (temp) {
+//  let temp = 5;
 
-    else if (temp > 40) {
-        console.log ("liiga kuum")
+if (temp < 20) {
+    return(-1)
+    } 
+if(temp >= 21 && temp <= 40) {
+    return(0)
+    } 
+if (temp > 41) {
+    return(1)
     }
 }
