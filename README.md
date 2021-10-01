@@ -339,3 +339,14 @@ for (let i =0; i <= offers.length-1; i++) {
     document.body.append(li)
 }
 
+-------------------------------------------------------------------------------------------------------------------
+let arr = [5,8,4,3,2,1];
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] > 4) {
+    console.log(arr[i] + 1); 
+} else {
+
+ }
+}
+
+Lisab 1 juurde arvudele
