@@ -350,3 +350,14 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 Lisab 1 juurde arvudele
+
+let arr = [5,8,4,3,2,1];
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] > 0) {
+    console.log(arr[i] - 1); 
+} else {
+
+ }
+}
+
+Lahutab 1 arvu
