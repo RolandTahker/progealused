@@ -1,15 +1,15 @@
 password = prompt("Sisesta üks number 1-10-ni")
-let proovis = 0
+let mituKordaProovinud = 0
 let word = Math.floor(Math.random() * 10) + 1;
 while (password != word)
 {
    console.log(word)
     proovis++
-    if (proovis == 1){
-    console.log("Oled proovinud " + proovis + " korra")
+    if (mituKordaProovinud == 1){
+    console.log("Oled proovinud " + mituKordaProovinud + " korra")
     }
-    else console.log("Oled proovinud " + proovis + " korda")
-    if (proovis == 3){
+    else console.log("Oled proovinud " + mituKordaProovinud + " korda")
+    if (mituKordaProovinud == 3){
        break
         }
     if(password == word-1||password == word+1){
