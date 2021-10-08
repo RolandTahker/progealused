@@ -4,7 +4,7 @@ let word = Math.floor(Math.random() * 10) + 1;
 while (password != word)
 {
    console.log(word)
-    proovis++
+    mituKordaProovinud++
     if (mituKordaProovinud == 1){
     console.log("Oled proovinud " + mituKordaProovinud + " korra")
     }
