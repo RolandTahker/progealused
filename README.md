@@ -366,3 +366,21 @@ Lahutab 1 arvu
 { on blokk kood
 -------------------------------------------------------------------------------------------------------------------------
 nime saab anda function'iga
+-------------------------------------------------------------------------------------------------------------------------
+let töötaja = {
+  name: "Roland",
+  lepinguNr: ""
+}
+
+töötaja.name // "Roland"
+töötaja.vanus // undefined
+töötaja['name'] // "Roland"
+
+töötaja lepinguNr = "A11234"
+
+töötaja.hasOwnProperty('name') //true
+töötaja.hasOwnProperty('vanus') //false
+
+delete töötaja.name
+delete töötaja['name']
+töötaja. name // undefined
