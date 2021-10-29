@@ -386,3 +386,9 @@ töötaja.hasOwnProperty('vanus') //false
 delete töötaja.name
 delete töötaja['name']
 töötaja. name // undefined
+////////////////////////////////////////////////////////////////////////////////////
+let pointer = {}
+let pointer2 = {}
+obj = {"name" : "Timo", 0: "", [pointer]: "asd"}
+
+console.log(obj[pointer2])
