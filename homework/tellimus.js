@@ -33,8 +33,8 @@ var tellimus = {
   ] 
 } 
 console.log(tellimus["orderNumber"]+" "+ tellimus["clientName"])
-console.log(tellimus["rows"][1]["price"] * 2 + tellimus["rows"][0]["price"] + tellimus["rows"][2]["price"])
-
+let o = 0
 for (var i = 0; i < tellimus["rows"].length; i += 1) {
-  console.log(i)
-}
+   o += (tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"])
+
+  }
