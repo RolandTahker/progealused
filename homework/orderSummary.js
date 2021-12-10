@@ -31,10 +31,13 @@ var tellimus = {
       "vat": 0.2 
     } 
   ] 
-} 
-console.log(tellimus["orderNumber"]+" "+ tellimus["clientName"])
-let o = 0
-for (var i = 0; i < tellimus["rows"].length; i += 1) {
-   o += (tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"])
+}
+let order = 0
 
-  }
+for (var i = 0; i < tellimus["rows"].length; i += 1) {
+    let koguSumma = tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"];
+        console.log("Name: "+tellimus["rows"][i]["name"]+" Amount: "+ tellimus["rows"][i]["amount"]+" Price: "+ tellimus["rows"][i]["price"]+" Full price: "+ koguSumma);
+    (order += (tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"]))
+}
+
+console.log("Summa on", order,"ja sellest käibemaks on",order-order/1.2)
