@@ -40,4 +40,4 @@ for (var i = 0; i < tellimus["rows"].length; i += 1) {
     (order += (tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"]))
 }
 
-console.log("Summa on", order,",käibemaks on",order-order/1.2) 
+console.log("Summa on", order,", käibemaks on",order-order/1.2) 
