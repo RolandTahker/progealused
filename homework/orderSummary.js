@@ -32,6 +32,8 @@ var tellimus = {
     } 
   ] 
 }
+
+// Lahendus
 let order = 0
 
 for (var i = 0; i < tellimus["rows"].length; i += 1) {
