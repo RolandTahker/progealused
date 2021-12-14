@@ -41,5 +41,4 @@ for (var i = 0; i < tellimus["rows"].length; i += 1) {
         console.log("Name: "+tellimus["rows"][i]["name"]+" Amount: "+ tellimus["rows"][i]["amount"]+" Price: "+ tellimus["rows"][i]["price"]+" Full price: "+ koguSumma);
     (order += (tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"]))
 }
-
-console.log ("Total is:", order,", VAT is:",order-order/1.2)
+console.log("Total is:", order,", VAT is:",order-order/1.2)
