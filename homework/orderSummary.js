@@ -31,9 +31,13 @@ var tellimus = {
       "vat": 0.2 
     } 
   ] 
-}
+} 
+console.log(tellimus["orderNumber"]+" "+ tellimus["clientName"])
+let o = 0
+for (var i = 0; i < tellimus["rows"].length; i += 1) {
+   o += (tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"])
 
-// Lahendus
+  }
 let order = 0
 
 for (var i = 0; i < tellimus["rows"].length; i += 1) {
